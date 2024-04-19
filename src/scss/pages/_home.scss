@@ -1,0 +1,10 @@
+.section.cards {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  gap: 30px 30px;
+
+  @media screen and (max-width: 1090px) {
+    justify-content: center;
+  }
+}
